@@ -2,7 +2,7 @@ import React from 'react'
 
 const Condition = () => {
     const person ={
-        name:"mannu",
+        name:"maitrik",
         age:"19",
     
 
@@ -10,7 +10,7 @@ const Condition = () => {
 
   return (
     <div>
-    <h2>{(person.age)>18 ? "you can drive" : "you cannnot drive"}</h2>
+    <h2>{person.name}{(person.age)>18 ? (person.name = "can drive"): (person.name ="cannnot drive")}</h2>
     </div>
 
   )

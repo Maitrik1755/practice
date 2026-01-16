@@ -3,6 +3,10 @@ import Product from './Product'
 import Events from './Events'
 import Count from './Count'
 import Condition from './Condition'
+import Form from './Form'
+import Effect from './Effect'
+import Api from './Api'
+
 
 const App = () => {
 
@@ -12,7 +16,14 @@ const App = () => {
   }
   return (
     <>
-      <div>
+      {
+        <><Form />
+        
+        <Effect />
+        <Api />
+        
+        </>
+      /* <div>
         <h1>Age={person.Age}</h1>
         <h1>Name={person.name}</h1>
 
@@ -41,7 +52,17 @@ const App = () => {
       <Events />
 
       <Count />
-      <Condition />
+      <Condition /> */
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      }
 
     </>
   )
